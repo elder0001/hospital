@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+  display: flex;
+  background-image: url(Rectangle\ 1.png);
+  height: 800px;
+  background-repeat: no-repeat;
+}
+.sub-container{
+    background-image: url(Rectangle\ 4.png);
+    position: absolute;
+   filter: brightness(90%) saturate(120%) contrast(150%);
+    top: 18%;
+    left: 14%;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 82vw;
+    justify-content: center;
+    align-items: flex-start;
+    height: 30vh;
+}
+
+.grid{
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+.grid:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.dashboard{
+  position: absolute;
+  top: 32%;
+  left: 4%;
+  text-transform: lowercase;
+  font-size: 12px;
+  color: blue;
+  /* letter-spacing: 1px; */
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.doctor{
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+}
+.doctor:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.patient{
+  position: absolute;
+  top: 53%;
+  left: 5%;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+}
+.patient:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.appointment{
+  position: absolute;
+  top: 66%;
+  left: 4%;
+  width: 70px;
+  height: 40px;
+  cursor: pointer;
+}
+.appointment:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.payment{
+  position: absolute;
+  top: 79%;
+  left: 5%;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+}
+.payment:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.setting{
+  position: absolute;
+  top: 92%;
+  left: 5%;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+}
+.setting:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.logout{
+  position: absolute;
+  top: 135%;
+  left: 5%;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+}
+.logout:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.delete-profile{
+  position: absolute;
+  top: 150%;
+  left: 4%;
+  width: 72px;
+  height: 46px;
+  cursor: pointer;
+}
+.delete-profile:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.box{
+    display: flex;
+    padding: 10px 20px;
+      box-shadow:  2px 2px 2px rgb(68, 68, 68);
+      height: fit-content;
+      width: 100%;
+}
+ .search-bar{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    padding: 20px;
+    border: none;
+    
+ }
+ .search-bar button{
+  position: absolute;
+  top: 20px;
+  left: 80%;
+    height: 30px;
+    border: none;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    width: 50px;
+    
+ }
+ .search-bar input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(216, 211, 211);
+ }
+.phone{
+  height: 22px;
+  width: 22px;
+  position: absolute;
+  top: 22px;
+  left: 100%;
+  cursor: pointer;
+  border: thin solid black;
+}
+.notification{
+  height: 22px;
+  width: 22px;
+  position: absolute;
+  top: 22px;
+  left: 110%;
+  cursor: pointer;
+}
+.profile{
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: 20px;
+  left: 125%;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.user{
+position: absolute;
+top: 25px;
+left: 135%;
+}
+.image{
+  position: relative;
+  right: 39%;
+  top: 11%;
+   width: 10%;
+}
+.health{
+  position: absolute;
+  left: 35%;
+  top: 27%;
+   width: 35%;
+}
+.group9{
+  position: absolute;
+  left: 15%;
+  top: 53%;
+  width: 7%;
+  cursor: pointer;
+}
+.frame11{
+  position: absolute;
+  left: 14%;
+  top: 60%;
+  width: 20%;
+}
+.frame11:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+.patientII{
+    position: absolute;
+    left: 37%;
+    top: 53%;
+    width: 7%;
+    cursor: pointer;
+  }
+  .frame12{
+    position: absolute;
+    left: 35%;
+    top: 60%;
+    width: 20%;
+  }
+  .frame12:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+  }
+  .Report{
+     position: absolute;
+    left: 57%;
+    top: 53%;
+    width: 6%;
+    cursor: pointer;
+}
+.frame13{
+  position: absolute;
+  left: 56%;
+  top: 60%;
+  width: 20%;
+}
+.frame13:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+.Balance{
+  position: absolute;
+  left: 80%;
+  top: 53%;
+  width: 7%;
+}
+.frame14{
+  position: absolute;
+  left: 77%;
+  top: 60%;
+  width: 20%;
+}
+.frame14:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+.Hospital-overview{
+  position: absolute;
+  left: 15%;
+  top: 96%;
+  width: 15%;
+  cursor: pointer;
+}
+.Hospital-overviewII{
+  position: absolute;
+  left: 15%;
+  top: 105%;
+  width: 55%;
+}
+.Gender{
+    position: absolute;
+  right: 20%;
+  top: 96%;
+  width: 5%;
+  cursor: pointer;
+}
+
+.gender{
+    position: absolute;
+  right: 5%;
+  top: 103%;
+  width: 23%;
+}
+.gender:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
